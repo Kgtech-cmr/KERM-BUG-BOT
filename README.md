@@ -12,9 +12,9 @@
 <a href="https://github.com/Kgtech-cmr"><img title="Author" src="https://img.shields.io/badge/KGTECH-black?style=for-the-badge&logo=Github"></a> <a href="https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/237656520674"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp">
 <p/>
 <p align="center">
-<a href="https://github.com/Kgtech-cmr/KERM-BUG-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Kgtech-cmr/KERM-BUG-MD?color=white&style=flat-square"></a>
-<a href="https://github.com/Kgtech-cmr/KERM-BUG-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kgtech-cmr/KERM-BUG-MD?color=yellow&style=flat-square"></a>
-<a href="https://github.com/Kgtech-cmr/KERM-BUG-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Kgtech-cmr/KERM-BUG-MD?label=Watchers&color=red&style=flat-square"></a>
+<a href="https://github.com/Kgtech-cmr/KERM-BUG-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Kgtech-cmr/KERM-BUG-BOT?color=white&style=flat-square"></a>
+<a href="https://github.com/Kgtech-cmr/KERM-BUG-BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kgtech-cmr/KERM-BUG-BOT?color=yellow&style=flat-square"></a>
+<a href="https://github.com/Kgtech-cmr/KERM-BUG-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Kgtech-cmr/KERM-BUG-BOT?label=Watchers&color=red&style=flat-square"></a>
    
 ### If you want to deploy somewhere else, upload your creds.json in session folder after getting pair code 
 
@@ -22,7 +22,7 @@
 
 **CLICK HERE 👇 TO FORK**
 
-<a href="https://github.com/Kgtech-cmr/KERM-BUG-MD/fork"><img src="https://img.shields.io/badge/FORK-KERM-black" alt="FORK KERM-BUG-MD" width="100"></a>
+<a href="https://github.com/Kgtech-cmr/KERM-BUG-BOT/fork"><img src="https://img.shields.io/badge/FORK-KERM-black" alt="FORK KERM-BUG-BOT" width="100"></a>
 
 1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
@@ -36,7 +36,7 @@
    <br>
 2. Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/Kgtech-cmr/KERM-BUG-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/Kgtech-cmr/KERM-BUG-BOT' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 #### DEPLOY TO RENDER 
 
 1. Now Deploy
@@ -53,7 +53,7 @@
 
 4. Now Deploy
     <br>
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=https://github.com/Kgtech-cmr/KERM-BUG-MD&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=KERM-BUG-MD;RAYAN%20SGIFFARENO;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=237656520674,237650564445&env[STICKER_DATA]=KG TECH&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+<a href='https://app.koyeb.com/services/deploy?type=git&repository=https://github.com/Kgtech-cmr/KERM-BUG-BOT&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=KERM-BUG-BOT;RAYAN%20SGIFFARENO;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=237656520674,237650564445&env[STICKER_DATA]=KG TECH&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
 
 #### DEPLOY ON RAILWAY
 
