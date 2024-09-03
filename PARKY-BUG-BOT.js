@@ -157,7 +157,7 @@ isForwarded: true,
 "body": `${ownername}`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": fs.readFileSync(`./parkyMedia/thumb.jpg`),
+"thumbnail": fs.readFileSync(`./kermMedia/thumb.jpg`),
 "sourceUrl": `${link}`}}},
 { quoted: m})
 }
@@ -568,25 +568,25 @@ list.push({
         
 for (let BhosdikaXeon of VoiceNoteXeon) {
 if (budy === BhosdikaXeon) {
-let audiobuffy = fs.readFileSync(`./parkyMedia/audio/${BhosdikaXeon}.mp3`)
+let audiobuffy = fs.readFileSync(`./kermMedia/audio/${BhosdikaXeon}.mp3`)
 XeonBotInc.sendMessage(m.chat, { audio: audiobuffy, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 }
 }
 for (let BhosdikaXeon of StickerXeon){
 if (budy === BhosdikaXeon){
-let stickerbuffy = fs.readFileSync(`./parkyMedia/sticker/${BhosdikaXeon}.webp`)
+let stickerbuffy = fs.readFileSync(`./kermMedia/sticker/${BhosdikaXeon}.webp`)
 XeonBotInc.sendMessage(m.chat, { sticker: stickerbuffy }, { quoted: m })
 }
 }
 for (let BhosdikaXeon of ImageXeon){
 if (budy === BhosdikaXeon){
-let imagebuffy = fs.readFileSync(`./parkyMedia/image/${BhosdikaXeon}.jpg`)
+let imagebuffy = fs.readFileSync(`./kermMedia/image/${BhosdikaXeon}.jpg`)
 XeonBotInc.sendMessage(m.chat, { image: imagebuffy }, { quoted: m })
 }
 }
 for (let BhosdikaXeon of VideoXeon){
 if (budy === BhosdikaXeon){
-let videobuffy = fs.readFileSync(`./parkyMedia/video/${BhosdikaXeon}.mp4`)
+let videobuffy = fs.readFileSync(`./kermMedia/video/${BhosdikaXeon}.mp4`)
 XeonBotInc.sendMessage(m.chat, { video: videobuffy }, { quoted: m })
 }
 }
@@ -596,7 +596,7 @@ XeonBotInc.sendMessage(from, { document: teks, mimetype: 'application/vnd.androi
 }
 for (let BhosdikaXeon of ApkXeon) {
 if (budy === BhosdikaXeon) {
-let buffer = fs.readFileSync(`./parkyMedia/apk/${BhosdikaXeon}.apk`)
+let buffer = fs.readFileSync(`./kermMedia/apk/${BhosdikaXeon}.apk`)
 sendapk(buffer)
 }
 }
@@ -606,7 +606,7 @@ XeonBotInc.sendMessage(from, { document: teks, mimetype: 'application/zip'}, {qu
 }
 for (let BhosdikaXeon of ZipXeon) {
 if (budy === BhosdikaXeon) {
-let buffer = fs.readFileSync(`./parkyMedia/zip/${BhosdikaXeon}.zip`)
+let buffer = fs.readFileSync(`./kermMedia/zip/${BhosdikaXeon}.zip`)
 sendzip(buffer)
 }
 }
@@ -616,7 +616,7 @@ haikal.sendMessage(from, { document: teks, mimetype: 'application/pdf'}, {quoted
 }
 for (let BhosdikaXeon of DocXeon) {
 if (budy === BhosdikaXeon) {
-let buffer = fs.readFileSync(`./parkyMedia/doc/${BhosdikaXeon}.pdf`)
+let buffer = fs.readFileSync(`./kermMedia/doc/${BhosdikaXeon}.pdf`)
 senddocu(buffer)
 }
 }
@@ -937,7 +937,7 @@ senddocu(buffer)
             case 'getcase':
                 if (!isCreator) return replygcxeon(mess.owner)
                 const getCase = (cases) => {
-                    return "case" + `'${cases}'` + fs.readFileSync("PARKY-BUG-BOT.js").toString().split('case \'' + cases + '\'')[1].split("break")[0] + "break"
+                    return "case" + `'${cases}'` + fs.readFileSync("KERM-BUG-BOT.js").toString().split('case \'' + cases + '\'')[1].split("break")[0] + "break"
                 }
                 replygcxeon(`${getCase(q)}`)
                 break
@@ -1200,7 +1200,7 @@ case 'ping': {
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `*Salut ${pushname}\n Premium est payant ! \n Met ton numéro dans Premium json file! \n et dépôt à Jean parker pour l'activer on Youtube channel Jean-parker-tech*`
+                let teks = `*Salut ${pushname}\n Premium est payant ! \n Met ton numéro dans Premium json file! \n et dépôt à Rayan parker pour l'activer on Youtube channel Kermhacktools*`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1226,9 +1226,9 @@ case 'ping': {
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `Yt Jean-parker-tech`,
-                            body: `Love from Jean Parker 🩵`,
-                            thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                            title: `Yt KermhackTools`,
+                            body: `Love from Kerm 🤖`,
+                            thumbnailUrl: 'https://telegra.ph/file/0ba3d88036793069ceabc.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1242,13 +1242,13 @@ case 'ping': {
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/Jeanparker100/PARKY-BUG-BOT\n\n🪀 *_Group:_* https://chat.whatsapp.com/L8NDXnqqDZn2uEtzsgZ8ES\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VagLiHaEVccM6o6Sqc45\n\n🩵 *_Dev:_* https://Wa.me//+22898133388`,
+                    text: `🌐 *_Git:_* https://github.com/Kgtech-cmr/KERM-BUG-BOT\n\n🪀 *_Group:_* https://chat.whatsapp.com/EQHfZZHu2jo194sJcAht5S\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45\n\n😎 *_Dev:_* https://Wa.me//+237656520674`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT OF Parky-MD is on YouTube Jean-parker-tech 🩵`,
-                            body: `Love You bro 🩵`,
-                            thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                            title: `SCRIPT OF Kerm-MD is on YouTube KermhackTools 🤖`,
+                            body: `Love You bro 🙂‍↔️`,
+                            thumbnailUrl: 'https://telegra.ph/file/0ba3d88036793069ceabc.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1262,7 +1262,7 @@ case 'ping': {
             case 'donasi':
                 let textnate = `*Bonjour ${pushname}*\n\n *Quelques soit comment c'est petit c'est l'intention qui compte*  \n *Flooz :* +22898133388`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: '*Don de soutien pour Jean Parker*\n\n' + textnate
+                    text: '*Don de soutien pour Rayan*\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -1527,7 +1527,7 @@ break
                 if (args.length < 1) return replygcxeon(`Example:\n${prefix}fliptext Xeony`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
-                replygcxeon(`\`\`\`🩵 FLIP TEXT 🩵\`\`\`\n*🩵> Normal :*\n${quere}\n*🩵> Flip :*\n${flipe}`)
+                replygcxeon(`\`\`\`❤️ FLIP TEXT ❤️\`\`\`\n*❤️> Normal :*\n${quere}\n*❤️> Flip :*\n${flipe}`)
             }
             break
             case 'listvn': {
@@ -1591,7 +1591,7 @@ break
                 if (VideoXeon.includes(q)) return replygcxeon("The name you entered already exists")
                 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
                 VideoXeon.push(q)
-                await fsx.copy(delb, `./parkyMedia/video/${q}.mp4`)
+                await fsx.copy(delb, `./kermMedia/video/${q}.mp4`)
                 fs.writeFileSync('./database/autoreply/video.json', JSON.stringify(VideoXeon))
                 fs.unlinkSync(delb)
                 replygcxeon(`Success Adding Video\To View Type ${prefix}listvideo`)
@@ -1604,7 +1604,7 @@ break
                 let wanu = VideoXeon.indexOf(q)
                 VideoXeon.splice(wanu, 1)
                 fs.writeFileSync('./database/autoreply/video.json', JSON.stringify(VideoXeon))
-                fs.unlinkSync(`./parkyMedia/video/${q}.mp4`)
+                fs.unlinkSync(`./kermMedia/video/${q}.mp4`)
                 replygcxeon(`Successfully Deleted Video ${q}`)
             }
             break
@@ -1614,7 +1614,7 @@ break
                 if (ImageXeon.includes(q)) return replygcxeon("The name you entered is already registered in the database")
                 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
                 ImageXeon.push(q)
-                await fsx.copy(delb, `./parkyMedia/image/${q}.jpg`)
+                await fsx.copy(delb, `./kermMedia/image/${q}.jpg`)
                 fs.writeFileSync('./database/autoreply/image.json', JSON.stringify(ImageXeon))
                 fs.unlinkSync(delb)
                 replygcxeon(`Success In Adding Image\nTo Check Type ${prefix}listimage`)
@@ -1627,7 +1627,7 @@ break
                 let wanu = ImageXeon.indexOf(q)
                 ImageXeon.splice(wanu, 1)
                 fs.writeFileSync('./database/autoreply/image.json', JSON.stringify(ImageXeon))
-                fs.unlinkSync(`./parkyMedia/image/${q}.jpg`)
+                fs.unlinkSync(`./kermMedia/image/${q}.jpg`)
                 replygcxeon(`Successfully Deleted Image ${q}`)
             }
             break
@@ -1637,7 +1637,7 @@ break
                 if (StickerXeon.includes(q)) return replygcxeon("Name Already In Use")
                 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
                 StickerXeon.push(q)
-                await fsx.copy(delb, `./parkyMedia/sticker/${q}.webp`)
+                await fsx.copy(delb, `./kermMedia/sticker/${q}.webp`)
                 fs.writeFileSync('./database/autoreply/sticker.json', JSON.stringify(StickerXeon))
                 fs.unlinkSync(delb)
                 replygcxeon(`Successfully Adding Sticker\To Check Type ${prefix}liststicker`)
@@ -1650,7 +1650,7 @@ break
                 let wanu = StickerXeon.indexOf(q)
                 StickerXeonBotInc.splice(wanu, 1)
                 fs.writeFileSync('./database/autoreply/sticker.json', JSON.stringify(StickerXeon))
-                fs.unlinkSync(`./parkyMedia/sticker/${q}.webp`)
+                fs.unlinkSync(`./kermMedia/sticker/${q}.webp`)
                 replygcxeon(`Successfully Removed Sticker ${q}`)
             }
             break
@@ -1660,7 +1660,7 @@ break
                 if (VoiceNoteXeon.includes(q)) return replygcxeon("Name Already In Use")
                 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
                 VoiceNoteXeon.push(q)
-                await fsx.copy(delb, `./parkyMedia/audio/${q}.mp3`)
+                await fsx.copy(delb, `./kermMedia/audio/${q}.mp3`)
                 fs.writeFileSync('./database/autoreply/vn.json', JSON.stringify(VoiceNoteXeon))
                 fs.unlinkSync(delb)
                 replygcxeon(`Success Adding Audio\nTo Check Type ${prefix}listvn`)
@@ -1673,7 +1673,7 @@ break
                 let wanu = VoiceNoteXeon.indexOf(q)
                 VoiceNoteXeon.splice(wanu, 1)
                 fs.writeFileSync('./database/autoreply/vn.json', JSON.stringify(VoiceNoteXeon))
-                fs.unlinkSync(`./parkyMedia/audio/${q}.mp3`)
+                fs.unlinkSync(`./kermMedia/audio/${q}.mp3`)
                 replygcxeon(`Successfully Deleted Audio ${q}`)
             }
             break
@@ -1686,7 +1686,7 @@ let teks = `${text}`
 if (ZipXeon.includes(teks)) return replygcxeon("This name is already in use")
 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
 ZipXeon.push(teks)
-await fsx.copy(delb, `./parkyMedia/zip/${teks}.zip`)
+await fsx.copy(delb, `./kermMedia/zip/${teks}.zip`)
 fs.writeFileSync('./database/autoreply/zip.json', JSON.stringify(ZipXeon))
 fs.unlinkSync(delb)
 replygcxeon(`Success Adding zip\nTo check type ${prefix}listzip`)
@@ -1703,7 +1703,7 @@ if (!ZipXeon.includes(teks)) return replygcxeon("This name does not exist in the
 let wanu = ZipXeon.indexOf(teks)
 ZipXeon.splice(wanu, 1)
 fs.writeFileSync('./database/autoreply/zip.json', JSON.stringify(ZipXeon))
-fs.unlinkSync(`./parkyMedia/zip/${teks}.zip`)
+fs.unlinkSync(`./kermMedia/zip/${teks}.zip`)
 replygcxeon(`Successfully deleted zip ${teks}`)
 }
 }
@@ -1727,7 +1727,7 @@ let teks = `${text}`
 if (ApkXeon.includes(teks)) return replygcxeon("This name is already in use")
 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
 apknye.push(teks)
-await fsx.copy(delb, `./parkyMedia/apk/${teks}.apk`)
+await fsx.copy(delb, `./kermMedia/apk/${teks}.apk`)
 fs.writeFileSync('./database/autoreply/apk.json', JSON.stringify(ApkXeon))
 fs.unlinkSync(delb)
 replygcxeon(`Successful Adding apk\nTo Check type ${prefix}listapk`)
@@ -1744,7 +1744,7 @@ if (!ApkXeon.includes(teks)) return replygcxeon("This name does not exist in the
 let wanu = ApkXeon.indexOf(teks)
 ApkXeon.splice(wanu, 1)
 fs.writeFileSync('./database/autoreply/apk.json', JSON.stringify(ApkXeon))
-fs.unlinkSync(`./parkyMedia/apk/${teks}.apk`)
+fs.unlinkSync(`./kermMedia/apk/${teks}.apk`)
 replygcxeon(`Successfully deleted Apk ${teks}`)
 }
 }
@@ -1768,7 +1768,7 @@ let teks = `${text}`
 if (DocXeon.includes(teks)) return replygcxeon("This name is already in use")
 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
 docunye.push(teks)
-await fsx.copy(delb, `./parkyMedia/doc/${teks}.pdf`)
+await fsx.copy(delb, `./kermMedia/doc/${teks}.pdf`)
 fs.writeFileSync('./database/autoreply/doc.json', JSON.stringify(DocXeon))
 fs.unlinkSync(delb)
 replygcxeon(`Successful Adding Pdf\nTo check type ${prefix}listpdf`)
@@ -1785,7 +1785,7 @@ if (!DocXeon.includes(teks)) return replygcxeon("This name does not exist in the
 let wanu = DocApk.indexOf(teks)
 docunye.splice(wanu, 1)
 fs.writeFileSync('./database/autoreply/doc.json', JSON.stringify(DocXeon))
-fs.unlinkSync(`./parkyMedia/doc/${teks}.pdf`)
+fs.unlinkSync(`./kermMedia/doc/${teks}.pdf`)
 replygcxeon(`Successfully deleted pdf ${teks}`)
 }
 }
@@ -2113,7 +2113,7 @@ case "xios2":
     await sleep(1500); // Adjusted sleep time for clarity
     sendMultiplePaymentInvites(from, encodedValue);
     await sleep(2500); // Adjusted sleep time for clarity
-    sendReaction('🩵');
+    sendReaction('🦠');
   }
   break;
   case "xandroid2":
@@ -2133,7 +2133,7 @@ case "xios2":
     await sleep(1500); // Adjusted sleep time for clarity
     sendVariousMessages(from, encodedValue);
     await sleep(2500); // Adjusted sleep time for clarity
-    sendReaction('🩵');
+    sendReaction('🦠');
   }
   break;
   case "xgc":
@@ -2232,8 +2232,8 @@ break
 case 'clearchat':
 xeonimun('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 break
-case 'Jeanparker':
-xeonimun('★彡[ᴄᴏᴇᴜʀ ꜱᴜʀ ᴛᴏɪ 🩵 ᴄʜᴇʀ \n ᴍᴇʀᴄɪ ᴅ,ᴜᴛɪʟɪꜱᴇʀ ᴍᴏɴ ʙᴜɢʙᴏᴛ  \n\n *ɴ,ᴏᴜʙʟɪᴇ ᴘᴀꜱ ᴅᴇ ᴛ,ᴀʙᴏɴɴᴇʀ À ᴍᴀ ᴄʜᴀÎɴᴇ ʏᴏᴜᴛᴜʙᴇ* \n _ʏᴏᴜᴛᴜʙᴇ ꜱᴇᴀʀᴄʜ ᴊᴇᴀɴ-ᴘᴀʀᴋᴇʀ-ᴛᴇᴄʜ ᴍᴇʀᴄɪ_ 🙏 😘]彡★')
+case 'Kerm':
+xeonimun('★彡[ᴄᴏᴇᴜʀ ꜱᴜʀ ᴛᴏɪ ❤️ ᴄʜᴇʀ \n ᴍᴇʀᴄɪ ᴅ,ᴜᴛɪʟɪꜱᴇʀ ᴍᴏɴ ʙᴜɢʙᴏᴛ  \n\n *ɴ,ᴏᴜʙʟɪᴇ ᴘᴀꜱ ᴅᴇ ᴛ,ᴀʙᴏɴɴᴇʀ À ᴍᴀ ᴄʜᴀÎɴᴇ ʏᴏᴜᴛᴜʙᴇ* \n _ʏᴏᴜᴛᴜʙᴇ ꜱᴇᴀʀᴄʜ ᴊᴇᴀɴ-ᴘᴀʀᴋᴇʀ-ᴛᴇᴄʜ ᴍᴇʀᴄɪ_ 🙏 😘]彡★')
 break
             case 'menu':
             case 'help':
@@ -2254,122 +2254,122 @@ break
 ┃❃╰───────────────
 ╰═════════════════⊷
 
-╭═══ 𝙰𝙽𝙳𝚁𝙾𝙸𝙳  𝙱𝚄𝙶 ⚠️ ═══⊷ 
-┃ 🩵 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
-┃ 🩵 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
-┃ 🩵 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌ʀᴀꜱʜ
-┃ 🩵 𝙭𝚜𝚢𝚜𝚞𝚒
+╭═══𝙰𝙽𝙳𝚁𝙾𝙸𝙳 𝙱𝚄𝙶⚠️═══⊷ 
+┃ 🦠 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
+┃ 🦠 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
+┃ 🦠 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌ʀᴀꜱʜ
+┃ 🦠 𝙭𝚜𝚢𝚜𝚞𝚒
 ╰═════════════════⊷
 
-╭═══ 𝙸𝙾𝚂  𝙱𝚄𝙶 🐛 ═══⊷
-┃ 🩵 𝙭𝚒𝚘𝚜
-┃ 🩵 𝙭𝚒𝚘𝚜2
+╭═══𝙸𝙾𝚂 𝙱𝚄𝙶🐛═══⊷
+┃ 🧠 𝙭𝚒𝚘𝚜
+┃ 🧠 𝙭𝚒𝚘𝚜2
 ╰═════════════════⊷
 
-╭═══ 𝙶𝚁𝙾𝚄𝙿  𝙱𝚄𝙶 🦠 ═══⊷ 
-┃ 🩵 𝙭𝚐𝚌
+╭═══𝙶𝚁𝙾𝚄𝙿 𝙱𝚄𝙶🦠═══⊷ 
+┃ 💀 𝙭𝚐𝚌
 ╰═════════════════⊷
 
-╭═══ 𝙾𝚆𝙽𝙴𝚁  𝙼𝙴𝙽𝙐 🔐 ═══⊷ 
-┃ 🩵 ɢᴇᴛsᴇssɪᴏɴ
-┃ 🩵 ᴅᴇʟᴇᴛᴇssɪᴏɴ
-┃ 🩵 ᴘᴘ
-┃ 🩵 ᴊᴏɪɴ
-┃ 🩵 sʜᴜᴛᴅᴏᴡɴ  
-┃ 🩵 ʀᴇsᴛᴀʀᴛ
-┃ 🩵 ᴀᴜᴛᴏʀᴇᴀᴅ 
-┃ 🩵 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
-┃ 🩵 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
-┃ 🩵 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
-┃ 🩵 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
-┃ 🩵 ᴍᴏᴅᴇ 
-┃ 🩵 ʙʟᴏᴄᴋ
-┃ 🩵 ᴜɴʙʟᴏᴄᴋ 
-┃ 🩵 ʙᴀᴄᴋᴜᴘ
-┃ 🩵 ɢᴇᴛᴄᴀsᴇ
-┃ 🩵 ᴀᴅᴅᴏᴡɴᴇʀ
-┃ 🩵 ᴅᴇʟᴏᴡɴᴇʀ
-┃ 🩵 ʙᴄɢᴄ
+╭═══𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝙐🔐═══⊷ 
+┃ 👽 ɢᴇᴛsᴇssɪᴏɴ
+┃ 👽 ᴅᴇʟᴇᴛᴇssɪᴏɴ
+┃ 👽 ᴘᴘ
+┃ 👽 ᴊᴏɪɴ
+┃ 💀 sʜᴜᴛᴅᴏᴡɴ  
+┃ 👽 ʀᴇsᴛᴀʀᴛ
+┃ 👽 ᴀᴜᴛᴏʀᴇᴀᴅ 
+┃ 👽 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
+┃ 👽 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
+┃ 👽 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
+┃ 👽 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
+┃ 👽 ᴍᴏᴅᴇ 
+┃ 👽 ʙʟᴏᴄᴋ
+┃ 👽 ᴜɴʙʟᴏᴄᴋ 
+┃ 👽 ʙᴀᴄᴋᴜᴘ
+┃ 👽 ɢᴇᴛᴄᴀsᴇ
+┃ 👽 ᴀᴅᴅᴏᴡɴᴇʀ
+┃ 👽 ᴅᴇʟᴏᴡɴᴇʀ
+┃ 👽 ʙᴄɢᴄ
 ╰═════════════════⊷
 
-╭═══ 𝙶𝚁𝙾𝚄𝙿  𝙼𝙴𝙽𝚄 👪 ═══⊷
-┃ 🩵 ᴄʟᴏsᴇᴛɪᴍᴇ
-┃ 🩵 ᴏᴘᴇɴᴛɪᴍᴇ
-┃ 🩵 ᴋɪᴄᴋ
-┃ 🩵 ᴀᴅᴅ
-┃ 🩵 ᴘʀᴏᴍᴏᴛᴇ
-┃ 🩵 ᴅᴇᴍᴏᴛᴇ
-┃ 🩵 sᴇᴛᴅᴇsᴄ
-┃ 🩵 sᴇᴛᴘᴘɢᴄ
-┃ 🩵 ᴛᴀɢᴀʟʟ
-┃ 🩵 ʜɪᴅᴇᴛᴀɢ
-┃ 🩵 ᴛᴏᴛᴀɢ
-┃ 🩵 ɢʀᴏᴜᴘ 
-┃ 🩵 ᴇᴅɪᴛɪɴғᴏ
-┃ 🩵 ʟɪɴᴋɢᴄ
-┃ 🩵 ʀᴇᴠᴏᴋᴇ
-┃ 🩵 ʟɪsᴛᴏɴʟɪɴᴇ
+╭═══𝙶𝚁𝙾𝚄𝙿 𝙼𝙴𝙽𝚄👪═══⊷
+┃ 🚨 ᴄʟᴏsᴇᴛɪᴍᴇ
+┃ 🚨 ᴏᴘᴇɴᴛɪᴍᴇ
+┃ 🚨 ᴋɪᴄᴋ
+┃ 🚨 ᴀᴅᴅ
+┃ 🚨 ᴘʀᴏᴍᴏᴛᴇ
+┃ 🚨 ᴅᴇᴍᴏᴛᴇ
+┃ 🚨 sᴇᴛᴅᴇsᴄ
+┃ 🚨 sᴇᴛᴘᴘɢᴄ
+┃ 🚨 ᴛᴀɢᴀʟʟ
+┃ 🚨 ʜɪᴅᴇᴛᴀɢ
+┃ 🚨 ᴛᴏᴛᴀɢ
+┃ 🚨 ɢʀᴏᴜᴘ 
+┃ 🚨 ᴇᴅɪᴛɪɴғᴏ
+┃ 🚨 ʟɪɴᴋɢᴄ
+┃ 🚨 ʀᴇᴠᴏᴋᴇ
+┃ 🚨 ʟɪsᴛᴏɴʟɪɴᴇ
 ╰═════════════════⊷
 
-╭═══ 𝙈𝒶𝒾𝓃  𝙼𝙴𝙽𝙐 ❤️ ═══⊷
-┃ 🩵 ᴍᴇɴᴜ
-┃ 🩵 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
-┃ 🩵 ʀᴜɴᴛɪᴍᴇ
-┃ 🩵 sᴄʀɪᴘᴛ
-┃ 🩵 ᴅᴏɴᴀᴛᴇ
-┃ 🩵 ᴏᴡɴᴇʀ
-┃ 🩵 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
+╭═══𝙈𝒶𝒾𝓃 𝙼𝙴𝙽𝙐❤️═══⊷
+┃ 📮 ᴍᴇɴᴜ
+┃ 📮 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
+┃ 📮 ʀᴜɴᴛɪᴍᴇ
+┃ 📮 sᴄʀɪᴘᴛ
+┃ 📮 ᴅᴏɴᴀᴛᴇ
+┃ 📮 ᴏᴡɴᴇʀ
+┃ 📮 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
 ╰═════════════════⊷
 
-╭═══ 𝙲𝙾𝙽𝙑𝙴𝚁𝚃 🔄 ═══⊷
-┃ 🩵 sᴛɪᴄᴋᴇʀ
-┃ 🩵 sᴍᴇᴍᴇ
-┃ 🩵 ᴛᴀᴋᴇ
-┃ 🩵 ᴛᴏɪᴍᴀɢᴇ
-┃ 🩵 ᴛᴏᴠɪᴅᴇᴏ
-┃ 🩵 ᴛᴏᴀᴜᴅɪᴏ
-┃ 🩵 ᴛᴏᴍᴘ3
-┃ 🩵 ᴛᴏᴠɴ
-┃ 🩵 ᴛᴏɢɪғ
-┃ 🩵 ᴛᴏᴜʀʟ
-┃ 🩵 ᴛᴏǫʀ
-┃ 🩵 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
-┃ 🩵 ғʟɪᴘᴛᴇxᴛ
-┃ 🩵 ᴇᴍᴏᴊɪᴍɪx
+╭═══𝙲𝙾𝙽𝙑𝙴𝚁𝚃🔄═══⊷
+┃ 🇨🇲 sᴛɪᴄᴋᴇʀ
+┃ 🇨🇲 sᴍᴇᴍᴇ
+┃ 🇨🇲 ᴛᴀᴋᴇ
+┃ 🇨🇲 ᴛᴏɪᴍᴀɢᴇ
+┃ 🇨🇲 ᴛᴏᴠɪᴅᴇᴏ
+┃ 🇨🇲 ᴛᴏᴀᴜᴅɪᴏ
+┃ 🇨🇲 ᴛᴏᴍᴘ3
+┃ 🇨🇲 ᴛᴏᴠɴ
+┃ 🇨🇲 ᴛᴏɢɪғ
+┃ 🇨🇲 ᴛᴏᴜʀʟ
+┃ 🇨🇲 ᴛᴏǫʀ
+┃ 🇨🇲 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
+┃ 🇨🇲 ғʟɪᴘᴛᴇxᴛ
+┃ 🇨🇲 ᴇᴍᴏᴊɪᴍɪx
 ╰═════════════════⊷
 
-╭═══ 𝘼𝕌𝒯𝒪 𝙱𝙶𝙼, 📢 ═══⊷
-┃ 🩵 ᴀᴅᴅvɪᴅᴇᴏ
-┃ 🩵 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
-┃ 🩵 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
-┃ 🩵 ᴀᴅᴅvɴ
-┃ 🩵 ᴀᴅᴅᴢɪᴘ
-┃ 🩵 ᴀᴅᴅᴀ𝓅𝓀
-┃ 🩵 ᴀᴅᴅᴘᴅ
-┃ 🩵 ᴅᴇʟvɪᴅᴇᴏ
-┃ 🩵 ᴅᴇʟ𝒾ᴍᴀɢᴇ
-┃ 🩵 ᴅᴇʟsᴛɪᴄᴋᴇʀ
-┃ 🩵 ᴅᴇʟvɴ
-┃ 🩵 ᴅᴇʟᴢɪᴘ
-┃ 🩵 ᴅᴇʟᴀ𝓅𝓀
-┃ 🩵 ᴅᴇʟᴘᴅ
-┃ 🩵 ʟɪsᴛvɪᴅᴇᴏ
-┃ 🩵 ʟɪsᴛ𝒾ᴍᴀɢᴇ
-┃ 🩵 ʟɪsᴛsᴛɪᴄᴋᴇʀ
-┃ 🩵 ʟɪsᴛvɴ
-┃ 🩵 ʟɪsᴛᴢɪᴘ
-┃ 🩵 ʟɪsᴛᴀ𝓅𝓀
-┃ 🩵 ʟɪsᴛᴘᴅ
+╭═══ 𝘼𝕌𝒯𝒪𝙱𝙶𝙼📢═══⊷
+┃ 👾 ᴀᴅᴅvɪᴅᴇᴏ
+┃ 👾 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
+┃ 👾 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
+┃ 👾 ᴀᴅᴅvɴ
+┃ 👾 ᴀᴅᴅᴢɪᴘ
+┃ 👾 ᴀᴅᴅᴀ𝓅𝓀
+┃ 👾 ᴀᴅᴅᴘᴅ
+┃ 👾 ᴅᴇʟvɪᴅᴇᴏ
+┃ 👾 ᴅᴇʟ𝒾ᴍᴀɢᴇ
+┃ 👾 ᴅᴇʟsᴛɪᴄᴋᴇʀ
+┃ 👾 ᴅᴇʟvɴ
+┃ 👾 ᴅᴇʟᴢɪᴘ
+┃ 👾 ᴅᴇʟᴀ𝓅𝓀
+┃ 👾 ᴅᴇʟᴘᴅ
+┃ 👾 ʟɪsᴛvɪᴅᴇᴏ
+┃ 👾 ʟɪsᴛ𝒾ᴍᴀɢᴇ
+┃ 👾 ʟɪsᴛsᴛɪᴄᴋᴇʀ
+┃ 👾 ʟɪsᴛvɴ
+┃ 👾 ʟɪsᴛᴢɪᴘ
+┃ 👾 ʟɪsᴛᴀ𝓅𝓀
+┃ 👾 ʟɪsᴛᴘᴅ
 ╰═════════════════⊷
 
-╭═══ 𝙳𝙾𝚆𝙽𝙇𝙾𝒶𝒹 📥 ═══⊷
-┃ 🩵 ᴘ𝓵𝒶ʏ
-┃ 🩵 ʏᴛᴍ𝓃
-┃ 🩵 ʏᴛᴍ𝓅4
-┃ 🩵 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
+╭═══𝙳𝙾𝚆𝙽𝙇𝙾𝒶𝒹📥═══⊷
+┃ 👁️‍🗨️ ᴘ𝓵𝒶ʏ
+┃ 👁️‍🗨️ ʏᴛᴍ𝓃
+┃ 👁️‍🗨️  ʏᴛᴍ𝓅4
+┃ 👁️‍🗨️ sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
 ╰═════════════════⊷
 
-> 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©`
+> Kg Tech ©`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
@@ -2377,7 +2377,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/0ba3d88036793069ceabc.jpg',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2388,14 +2388,14 @@ if (typemenu === 'v1') {
                     })
                     } else if (typemenu === 'v2') {
                     XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./parkyMedia/thumb2.mp4'),
+      video: fs.readFileSync('./kermMedia/thumb2.mp4'),
       gifPlayback: true,
       caption: xeonmenuoh,
       contextInfo: {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/0ba3d88036793069ceabc.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -2406,7 +2406,7 @@ if (typemenu === 'v1') {
                     })
                 } else if (typemenu === 'v3') {
                     XeonBotInc.sendMessage(m.chat, {
-                        video: fs.readFileSync('./parkyMedia/thumb2.mp4'),
+                        video: fs.readFileSync('./kermMedia/thumb2.mp4'),
                         caption: xeonmenuoh,
                         gifPlayback: true
                     }, {
