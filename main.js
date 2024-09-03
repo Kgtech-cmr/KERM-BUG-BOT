@@ -112,7 +112,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
             if (!XeonBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
             if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
             const m = smsg(XeonBotInc, mek, store)
-            require("./PARKY-BUG-BOT")(XeonBotInc, m, chatUpdate, store)
+            require("./KERM-BUG-BOT")(XeonBotInc, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -172,15 +172,15 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
         	console.log(chalk.magenta(` `))
-            console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
+            console.log(chalk.yellow(`🙂‍↔️Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
 			await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`𝙿𝙰𝚁𝙺𝚈-𝙱𝚄𝙶-𝙱𝙾𝚃`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`𝐾𝐸𝑅𝑀-𝐵𝑈𝐺-𝐵𝑂𝑇`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: Jean-parker-tech`))
-            console.log(chalk.magenta(`${themeemoji} GITHUB: Jeanparker100`))
-            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @its_jeanparker `))
-            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 22898133388`))
-            console.log(chalk.magenta(`${themeemoji} CREDIT: 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛\n`))
+	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: KermhackTools`))
+            console.log(chalk.magenta(`${themeemoji} GITHUB: Kgtech-cmr`))
+            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @rnbvb_e `))
+            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 237656520674`))
+            console.log(chalk.magenta(`${themeemoji} CREDIT: Rayan🙂‍↔️\n`))
         }
         if (
             connection === "close" &&
