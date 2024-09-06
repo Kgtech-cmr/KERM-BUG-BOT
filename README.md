@@ -43,26 +43,33 @@
     <br>
 <a href='https://dashboard.render.com/template=https://github.com/Kgtech-cmr/KERM-WEB' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/>
 
-#### DEPLOY TO KOYEB 
+#### TERMUX DEPLOY
 
-1. If You don't have a account in koyeb. Create a account.
+1. Copy this code to deploy on Termux.
     <br>
-<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb'/></a>
+```
+1.    apt update
+2.    apt upgrade
+3.    pkg update && pkg upgrade
+4.    pkg install bash
+5.    pkg install libwebp
+6.    pkg install git
+7.    pkg install nodejs
+8.    pkg install ffmpeg
+9.    pkg install wget
+10.  pkg install imagemagick
+11.  pkg install yarn
+12.  termux-setup-storage
+13.  cd /storage/emulated/0/techgodv4
+14.  yarn install
+15   npm start
 
-2. Get [Koyeb api key](https://app.koyeb.com/account/api)
 
-4. Now Deploy
-    <br>
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=https://github.com/Kgtech-cmr/KERM-BUG-BOT&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=KERM-BUG-BOT;RAYAN%20SGIFFARENO;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=237656520674,237650564445&env[STICKER_DATA]=KG TECH&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+if you exit termux then again start bot with 2 cmd
 
-#### DEPLOY ON RAILWAY
-
-1. If You don't have a account in Railway. Create a account.
-    <br>
-<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
-2. Now Deploy
-    <br>
-<a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+1.       cd /storage/emulated/0/techgodv4
+2.       npm start
+```
 
   **Do not forget to give a star⭐️ please**
 
