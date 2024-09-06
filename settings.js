@@ -11,29 +11,29 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "917466008456"
-global.ownername = "Tech God 😘"
-global.ytname = "YT: Tech God"
-global.socialm = "GitHub: techgod143"
+global.ownernomer = "237656520674"
+global.ownername = "KgTech👽"
+global.ytname = "YT: Kermhacktools"
+global.socialm = "GitHub: Kgtech-cmt"
 global.location = "India, UP, rampur"
 
-global.ownernumber = '917466008456'  //creator number
-global.ownername = 'Tech-God' //owner name
-global.botname = 'Tech God V4' //name of the bot
+global.ownernumber = '237656520674'  //creator number
+global.ownername = 'KgTech👽' //owner name
+global.botname = 'KERM-BUG-BOT' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = '🦄Tech-God\n\nContact: +917466008456'
+global.author = '🦄KgTech\n\nContact: +237656520674'
 
 //console view/theme
 global.themeemoji = '🪀'
-global.wm = "Tech God V4 Bot Inc."
+global.wm = "Kerm Bug Bot Inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029Va9Ufzi8kyyEnEHvOm1h'
+global.link = 'https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45'
 
 //custom prefix
-global.prefa = ['','!','.','#','&']
+global.prefa = ['','!','.']
 
 //false=disable and true=enable
 global.autoRecording = true //auto recording
@@ -54,10 +54,10 @@ global.typemenu = 'v2'
 //reply messages
 global.mess = {
     done: 'Done !',
-    prem: 'This feature can be used by Tech God or premium user only',
-    admin: 'This feature can be used by Tech God or admin only',
+    prem: 'This feature can be used by Kgtech or premium user only',
+    admin: 'This feature can be used by Kgtech or admin only',
     botAdmin: 'This feature can only be used when the bot is a group admin ',
-    owner: 'This feature can be used by Tech God or owner only',
+    owner: 'This feature can be used by Kgtech or owner only',
     group: 'This feature is only for groups',
     private: 'This feature is only for private chats',
     wait: 'In process... ',    
