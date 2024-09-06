@@ -2361,7 +2361,7 @@ if (typemenu === 'v1') {
                     })
                     } else if (typemenu === 'v2') {
                     XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./XeonMedia/thumb2.JPG'),
+      video: fs.readFileSync('./XeonMedia/thumb2.gif'),
       gifPlayback: true,
       caption: xeonmenuoh,
       contextInfo: {
@@ -2379,7 +2379,7 @@ if (typemenu === 'v1') {
                     })
                 } else if (typemenu === 'v3') {
                     XeonBotInc.sendMessage(m.chat, {
-                        video: fs.readFileSync('./XeonMedia/thumb2.JPG'),
+                        video: fs.readFileSync('./XeonMedia/thumb2.gif'),
                         caption: xeonmenuoh,
                         gifPlayback: true
                     }, {
