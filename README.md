@@ -28,15 +28,6 @@
 
 <a href="https://bug-session-kerm-v4d6.onrender.com/"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
-#### DEPLOY TO HEROKU 
-
-1. If You don't have a account in Heroku. Create a account.
-    <br>
-<a href='https://heroku.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
-   <br>
-2. Now Deploy
-    <br>
-<a href='https://heroku.com/deploy?template=https://dashboard.heroku.com/new-app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 #### DEPLOY TO RENDER 
 
 1. Now Deploy
