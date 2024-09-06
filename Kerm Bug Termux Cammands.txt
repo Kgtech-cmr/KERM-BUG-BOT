@@ -1,4 +1,4 @@
-Before apply this prosses Watch tutorial video on *Tech God* youtube channel
+Before apply this prosses Watch tutorial video on *Kerm Bug* youtube channel
 
 1.    apt update
 2.    apt upgrade
@@ -26,6 +26,6 @@ if you exit termux then again start bot with 2 cmd
 
 Note:
 
-Don't forget to subscribe YouTube channel-  Tech God
+Don't forget to subscribe YouTube channel-  Kermhack tools
 
-yt link http://www.youtube.com/@techgod143 🧲 😘 💕
+yt link https://youtube.com/@kermhacktools-s9s?si=jOnTt94sbVG6Zhuk 🧲 😘 💕
