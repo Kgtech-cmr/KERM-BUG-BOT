@@ -227,7 +227,7 @@ await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
         }
         
         if (autobio) {
-            XeonBotInc.updateProfileStatus(`24/7 Online Bot By YouTube -Tech God- user ${ownername}`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`24/7 Online Bot🤖 By Kgtech🔥 - user ${ownername}`).catch(_ => _)
         }
         if (m.sender.startsWith('92') && global.anti92 === true) {
             return XeonBotInc.updateBlockStatus(m.sender, 'block')
