@@ -55,9 +55,9 @@ const ZipXeon = JSON.parse(fs.readFileSync('./database/autoreply/zip.json'))
 const ApkXeon = JSON.parse(fs.readFileSync('./database/autoreply/apk.json'))
 
 //time
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-        const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Cameroon/Douala').format('HH:mm:ss')
+        const xdate = moment.tz('Cameroon/Douala').format('DD/MM/YYYY')
+        const time2 = moment().tz('Cameroon/Douala').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -1910,7 +1910,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1931,7 +1931,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1952,7 +1952,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1974,7 +1974,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1995,7 +1995,7 @@ const xeonybug1 = xeontext3
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2016,7 +2016,7 @@ const xeonybug1 = xeontext4
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2037,7 +2037,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2084,7 +2084,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2106,7 +2106,7 @@ const xeonybug1 = xeontext5
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2128,7 +2128,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2150,7 +2150,7 @@ const xeonybug1 = xeontext4
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2172,7 +2172,7 @@ const xeonybug1 = xeontext3
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2220,7 +2220,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Cameroon/Douala").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2364,7 +2364,7 @@ if (typemenu === 'v1') {
                     })
                     } else if (typemenu === 'v2') {
                     XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./XeonMedia/thumb2.mp4'),
+      video: fs.readFileSync('./XeonMedia/thumb2.JPG'),
       gifPlayback: true,
       caption: xeonmenuoh,
       contextInfo: {
@@ -2382,7 +2382,7 @@ if (typemenu === 'v1') {
                     })
                 } else if (typemenu === 'v3') {
                     XeonBotInc.sendMessage(m.chat, {
-                        video: fs.readFileSync('./XeonMedia/thumb2.mp4'),
+                        video: fs.readFileSync('./XeonMedia/thumb2.JPG'),
                         caption: xeonmenuoh,
                         gifPlayback: true
                     }, {
