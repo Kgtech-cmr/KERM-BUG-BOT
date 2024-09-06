@@ -176,10 +176,10 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
 			await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: Tech God`))
-            console.log(chalk.magenta(`${themeemoji} GITHUB: techgod143 `))
-            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @techgod143 `))
-            console.log(chalk.magenta(`${themeemoji} WA NUMBER: +91 7466008456`))
+	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: KermhackTools`))
+            console.log(chalk.magenta(`${themeemoji} GITHUB: Kgtech-cmr `))
+            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @rnbvb_e `))
+            console.log(chalk.magenta(`${themeemoji} WA NUMBER: +237 656520674`))
             console.log(chalk.magenta(`${themeemoji} CREDIT: youtube.com/@techgod143`))
         }
         if (
