@@ -2234,118 +2234,115 @@ break
             case 'help':
             case 'alive':
             case '?':
-                let xeonmenuoh = `Hello ${pushname}
-╰┈➤ ${xeonytimewisher} 😄
+                let xeonmenuoh = `Hi👀 ${pushname} ▬▬▬▬●
+꧁𒀱${xeonytimewisher} 😄
 
+Bot owner: *_Kgtech😎🇨🇲_*
+YouTube channel BOT Tutorials: _http://www.youtube.com/@KermHackTools-s9s_
 
-BoT Owner: _Kgtech_ 😘
-YouTube channel BOT Tutorials: _http://www.youtube.com/@kermhacktools_
+❚█══BUG MENU══█❚
+🦠xcrash <number>
+🦠xcrash2 <amount>
+🦠xioscrash <number>
+🦠xioscrash2 <amount>
+🦠iosgoogle <number>
+🦠iosgoogle2 <amount>
+🦠iosq <number>
 
+❚█══OWNER MENU══█❚
+🎯getsession
+🎯deletesession
+🎯join
+🎯shutdown  
+🎯restart
+🎯autoread *[option]*
+🎯autotyping *[option]*
+🎯autorecording *[option]*
+🎯autorecordtyp *[option]*
+🎯autobio *[option]*
+🎯autoswview *[option]*
+🎯mode *[option]*
+🎯block
+🎯unblock 
+🎯backup
+🎯getcase
+🎯addowner
+🎯delowner
 
+❚█══GROUP MENU══█❚
+🪄closetime
+🪄opentime
+🪄kick
+🪄add
+🪄promote
+🪄demote
+🪄setdesc
+🪄setppgc
+🪄tagall
+🪄hidetag
+🪄totag
+🪄group *[option]*
+🪄editinfo
+🪄linkgc
+🪄revoke
+🪄listonline
 
-╰┈➤ʙᴜɢ ᴍᴇɴᴜ
-xcrash <number>
-xcrash2 <amount>
-xioscrash <number>
-xioscrash2 <amount>
-iosgoogle <number>
-iosgoogle2 <amount>
-iosq <number>
+❚█══MAIN MENU══█❚
+🇨🇲menu
+🇨🇲buypremium
+🇨🇲runtime
+🇨🇲script
+🇨🇲donate
+🇨🇲owner
 
-╰┈➤ ᴏᴡɴᴇʀ ᴍᴇɴᴜ
-getsession
-deletesession
-join
-shutdown  
-restart
-autoread *[option]*
-autotyping *[option]*
-autorecording *[option]*
-autorecordtyp *[option]*
-autobio *[option]*
-autoswview *[option]*
-mode *[option]*
-block
-unblock 
-backup
-getcase
-addowner
-delowner
+❚█══CONVERT MENU══█❚
+👾sticker
+👾smeme
+👾take
+👾toimage
+👾tovideo
+👾toaudio
+👾tomp3
+👾tovn
+👾togif
+👾tourl
+👾toqr
+👾toviewonce
+👾fliptext
+👾emojimix
 
-╰┈➤ ɢʀᴏᴜᴘ ᴍᴇɴᴜ
-closetime
-opentime
-kick
-add
-promote
-demote
-setdesc
-setppgc
-tagall
-hidetag
-totag
-group *[option]*
-editinfo
-linkgc
-revoke
-listonline
+❚█══DATABASE MENU══█❚
+🚀addvideo
+🚀addimage
+🚀addsticker
+🚀addvn
+🚀addzip
+🚀addapk
+🚀addpdf
+🚀delvideo
+🚀delimage
+🚀delsticker
+🚀delvn
+🚀delzip
+🚀delapk
+🚀delpdf
+🚀listvideo
+🚀listimage
+🚀liststicker
+🚀listvn
+🚀listzip
+🚀listapk
+🚀listpdf
 
-╰┈➤ ᴍᴀɪɴ ᴍᴇɴᴜ
-menu
-buypremium
-runtime
-script
-donate
-owner
-
-╰┈➤ ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
-sticker
-smeme
-take
-toimage
-tovideo
-toaudio
-tomp3
-tovn
-togif
-tourl
-toqr
-toviewonce
-fliptext
-emojimix
-
-╰┈➤ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
-addvideo
-addimage
-addsticker
-addvn
-addzip
-addapk
-addpdf
-delvideo
-delimage
-delsticker
-delvn
-delzip
-delapk
-delpdf
-listvideo
-listimage
-liststicker
-listvn
-listzip
-listapk
-listpdf
-
-╰┈➤ ᴅᴏᴡɴ ᴍᴇɴᴜ
-play
-ytmp3
-ytmp4
-sound1 - sound161
+❚█══DOWN MENU══█❚
+🛸play
+🛸ytmp3
+🛸ytmp4
+🛸sound1 - sound161
 
 
 _*don't forget to subscribe*_ 
- http://www.youtube.com/@Kermhacktools`
+ http://www.youtube.com/@KermHackTools-s9s`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
