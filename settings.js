@@ -53,15 +53,15 @@ global.typemenu = 'v2'
 
 //reply messages
 global.mess = {
-    done: 'Done !',
-    prem: 'This feature can be used by Kgtech or premium user only',
-    admin: 'This feature can be used by Kgtech or admin only',
-    botAdmin: 'This feature can only be used when the bot is a group admin ',
-    owner: 'This feature can be used by Kgtech or owner only',
-    group: 'This feature is only for groups',
-    private: 'This feature is only for private chats',
-    wait: 'In process... ',    
-    error: 'Error!',
+    done: '*_Done successfully._*',
+    prem: '*_This feature can be used by Kgtech or premium user only_*',
+    admin: '*_This feature can be used by Kgtech or admin only_*',
+    botAdmin: '*_This feature can only be used when the bot is a group admin_* ',
+    owner: '*_This feature can be used by Kgtech or owner only_*',
+    group: '*_This feature is only for groups_*',
+    private: '*_This feature is only for private chats_*',
+    wait: '*_In process bro..._*',    
+    error: '*_Error!_*',
 }
 
 global.thumb = fs.readFileSync('./XeonMedia/thumb.JPG')
