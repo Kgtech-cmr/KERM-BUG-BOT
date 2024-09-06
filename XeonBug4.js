@@ -183,7 +183,7 @@ var xeonlod = [
 "《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
 "《 ████▒▒▒▒▒▒▒▒》30%",
 "《 ███████▒▒▒▒▒》50%",
-"《 ██████████▒▒YouTube Tech God》80%",
+"《 ██████████▒▒YouTube Kermhacktools》80%",
 "《 ████████████》100%",
 "𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
 ]
@@ -2238,8 +2238,8 @@ break
 ╰┈➤ ${xeonytimewisher} 😄
 
 
-BoT Owner: _Tech God_ 😘
-YouTube channel BOT Tutorials: _http://www.youtube.com/@techgod143_
+BoT Owner: _Kgtech_ 😘
+YouTube channel BOT Tutorials: _http://www.youtube.com/@kermhacktools_
 
 
 
@@ -2345,7 +2345,7 @@ sound1 - sound161
 
 
 _*don't forget to subscribe*_ 
- http://www.youtube.com/@techgod143`
+ http://www.youtube.com/@Kermhacktools`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
