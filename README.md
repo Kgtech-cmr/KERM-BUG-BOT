@@ -28,6 +28,9 @@
 
 <a href="https://bug-session-kerm-dnls.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
+## How To Deploy On Github.
+* [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/T77rQM7Nk5k?si=gg-LJxS6vC6kBEpJ)
+
 #### DEPLOY TO RENDER 
 
 1. Now Deploy
